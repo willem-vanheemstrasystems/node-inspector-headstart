@@ -1,0 +1,24 @@
+{
+  "name": "node-inspector-headstart",
+  "version": "1.0.0",
+  "description": "Node-Inspector - Headstart",
+  "main": "servers/server.js",
+  "scripts": {
+    "preinstall" : "npm install -g node-inspector",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willem-vanheemstrasystems/node-inspector-headstart.git"
+  },
+  "author": "Willem van Heemstra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willem-vanheemstrasystems/node-inspector-headstart/issues"
+  },
+  "homepage": "https://github.com/willem-vanheemstrasystems/node-inspector-headstart#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "node-inspector": "^0.12.7"
+  }
+}
